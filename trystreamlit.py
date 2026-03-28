@@ -1,9 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 import plotly.express as px
-from sqlalchemy import create_engine
 
 @st.cache_data
 def cargar_datos():
